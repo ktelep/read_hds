@@ -1,14 +1,11 @@
 read_hds.py
 ------------
 
-Simple parser for HDS Performance Data files (listed out as prf######.txt) to convert them to CSV
+Simple parser for HDS Performance Data files (listed out as prf#####.txt) to convert them to CSV.   
 
-Drop the script into the directory with the data and run it.   A CSV file will be created for each type of object (Disks, LUs, Ports, etc.) that can then be opened in Excel, Pandas, Access, any Database, etc. for further number crunching.
+Drop the script into the directory with the data and run it, there are no prereqs.   A CSV file will be created for each type of object (Disks, LUs, Ports, etc.) that can then be opened in Excel, Pandas, Access, Jupyter, etc. for further analysis.
 
-NOte:  Currently Cache and Processor performance numbers are not parsed
-
-
-Written by Kurt Telep
+Note:  Currently Cache and Processor performance numbers are not parsed, however CSV files will be created for them, please ignore until they are added.
 
 Sample Output
 --------------
